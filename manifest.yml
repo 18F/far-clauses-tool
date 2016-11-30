@@ -1,0 +1,7 @@
+---
+applications:
+- name: far-clauses
+  buildpack: staticfile_buildpack
+  path: ./web
+  memory: 64MB
+  instances: 1
